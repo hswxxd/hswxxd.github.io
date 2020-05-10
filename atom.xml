@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://hswxxd.github.io/"/>
-  <updated>2020-05-10T16:22:09.175Z</updated>
+  <updated>2020-05-10T15:04:44.615Z</updated>
   <id>http://hswxxd.github.io/</id>
   
   <author>
@@ -15,21 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试</title>
-    <link href="http://hswxxd.github.io/2020/05/11/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://hswxxd.github.io/2020/05/11/%E6%B5%8B%E8%AF%95/</id>
-    <published>2020-05-10T16:16:27.000Z</published>
-    <updated>2020-05-10T16:22:09.175Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>first-test</title>
