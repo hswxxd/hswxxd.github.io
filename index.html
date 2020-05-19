@@ -202,10 +202,42 @@
 </ul>
 <h3 id="使用list实现其他数据结构"><a href="#使用list实现其他数据结构" class="headerlink" title="使用list实现其他数据结构"></a>使用list实现其他数据结构</h3>  <img src="https://raw.githubusercontent.com/hswxxd/picRepo/master/img/20200519183206.png" style="zoom:50%;" />
 
+<h2 id="set"><a href="#set" class="headerlink" title="set"></a>set</h2><h3 id="1-sadd-srem"><a href="#1-sadd-srem" class="headerlink" title="1.sadd srem"></a>1.sadd srem</h3><ul>
+<li>sadd key element                ##添加</li>
+<li>srem key element                ##移除<h3 id="2-scard-sismember-srandmember-smembers-spop"><a href="#2-scard-sismember-srandmember-smembers-spop" class="headerlink" title="2.scard, sismember, srandmember, smembers, spop"></a>2.scard, sismember, srandmember, smembers, spop</h3></li>
+<li>scard key                        ##获取集合的元素个数</li>
+<li>sismember key element                    ##判断element是否在集合在</li>
+<li>srandmember key                    ##从集合中随机显示一个元素</li>
+<li>smembers key                ##显示集合所有元素</li>
+<li>spop key                ##从集合内随机弹出一个元素</li>
+</ul>
+<p><strong>注意srandmember显示和spop弹出的区别</strong></p>
+<h3 id="3-sdiff-sinter-sunion（集合间的api）"><a href="#3-sdiff-sinter-sunion（集合间的api）" class="headerlink" title="3.sdiff, sinter, sunion（集合间的api）"></a>3.sdiff, sinter, sunion（集合间的api）</h3><ul>
+<li>sdiff key1 key2                ###取差集</li>
+<li>sinter key1 key2                ###取交集</li>
+<li>sunion key1 key2                ###取并集</li>
+<li>sdiff|sinter|sunion+store destkey key key1<br>###取key1和key2的差|交|并|集保存在destkey中</li>
+</ul>
+<img src="https://raw.githubusercontent.com/hswxxd/picRepo/master/img/20200519205707.png" style="zoom:50%;" />
+
+<h2 id="zset"><a href="#zset" class="headerlink" title="zset"></a>zset</h2><ul>
+<li>zadd key score element                ##添加</li>
+<li>zrem key element                    ##移除</li>
+<li>zscore key element                #返回元素的score</li>
+<li>zincrby key ${integer} element                ##增加或减少score</li>
+<li>zcard key                        ##返回集合的元素个数</li>
+<li>zrange key start end                ##返回范围内的元素</li>
+<li>zrangebyscore key minScore maxScore                ##显示score范围内的元素（升序）</li>
+<li>zcount key minScore maxScore                ##返回zset指定范围内的元素个数</li>
+<li>zremrangebyrank                ##删除指定排名内的元素（升序）</li>
+<li>zremrangebyscore                ##删除指定score内的元素（升序）<img src="https://raw.githubusercontent.com/hswxxd/picRepo/master/img/20200519210932.png" style="zoom:50%;" />
 
 
 
 
+
+</li>
+</ul>
 
       
       <!-- reward -->
